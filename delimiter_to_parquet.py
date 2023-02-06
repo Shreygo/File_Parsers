@@ -111,6 +111,15 @@ def delimiter_file_parse():
     finally:
         file.close()
     return 'Parsing complete'
+    
+
+if __name__ == '__main__':
+
+    """
+    run the code using this command on the command line, mentioning all the input parameters required
+    python script_name.py input_path out_dir -headers headers -row_delimiter row_delimiter -column_delimiter column_delimiter -skip_lines skip_lines -skip_footers skip_footers
+    """
+    delimiter_file_parse()
 
 
 
